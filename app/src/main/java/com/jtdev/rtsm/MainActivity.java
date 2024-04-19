@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         helpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "You need some help lol.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "This function is under work..", Toast.LENGTH_SHORT).show();
             }
         });
 

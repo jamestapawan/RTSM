@@ -9,9 +9,9 @@
 
     <ImageView
         android:id="@+id/bldgImg"
-        android:layout_width="150dp"
+        android:layout_width="275dp"
         android:layout_height="280dp"
-        android:background="@drawable/bldg"
+        android:background="@drawable/campus_removebg_preview"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="260dp"
         />

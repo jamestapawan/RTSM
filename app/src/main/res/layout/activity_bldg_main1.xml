@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainbldg1"
+    android:background="@drawable/_st"
     tools:context=".Bldg_main1">
 
 
@@ -12,12 +12,12 @@
         android:id="@+id/Floor2_1"
         android:layout_width="130sp"
         android:layout_height="40sp"
-        android:text="2ND FLOOR"
-        android:backgroundTint="#FFD703"
-        android:textColor="@color/black"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="63dp"
-        />
+        android:layout_marginTop="98dp"
+        android:backgroundTint="#FFD703"
+        android:layout_marginRight="54dp"
+        android:text="2ND FLOOR"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/Floor2_2"
@@ -27,7 +27,8 @@
         android:backgroundTint="#FFD703"
         android:textColor="@color/black"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="115dp"
+        android:layout_marginBottom="185dp"
+        android:layout_marginLeft="20dp"
         />
 
 </RelativeLayout>
