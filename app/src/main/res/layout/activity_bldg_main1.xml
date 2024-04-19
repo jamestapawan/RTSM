@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbldg1"
+    tools:context=".Bldg_main1">
+
+
+    <Button
+        android:id="@+id/Floor2_1"
+        android:layout_width="130sp"
+        android:layout_height="40sp"
+        android:text="2ND FLOOR"
+        android:backgroundTint="#FFD703"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="63dp"
+        />
+
+    <Button
+        android:id="@+id/Floor2_2"
+        android:layout_width="130sp"
+        android:layout_height="40sp"
+        android:text="2ND FLOOR"
+        android:backgroundTint="#FFD703"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="115dp"
+        />
+
+</RelativeLayout>
