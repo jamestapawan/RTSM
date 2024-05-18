@@ -14,10 +14,18 @@ public class bldg_main2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bldg_main2);
         Button floor1 = findViewById(R.id.Floor1);
+        Button Floor2_3 = findViewById(R.id.Floor2_3);
         floor1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(bldg_main2.this, Bldg_main1.class);
+                startActivity(intent);
+            }
+        });
+        Floor2_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(bldg_main2.this, bldg_main2nd.class);
                 startActivity(intent);
             }
         });

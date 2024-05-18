@@ -4,23 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/_nd"
-    tools:context=".bldg_main2nd">
+    android:background="@drawable/_rd"
+    tools:context=".bldg_main3rd">
+
 
     <Button
-        android:id="@+id/Floor1"
+        android:id="@+id/Floor4"
         android:layout_width="130sp"
         android:layout_height="40sp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="188dp"
         android:layout_marginLeft="15dp"
-        android:text="MEZZANINE"
+        android:text="4TH FLOOR"
         android:backgroundTint="#FFD703"
         android:textColor="@color/black"
         />
 
     <Button
-        android:id="@+id/Floor2_3"
+        android:id="@+id/Floor3_2"
         android:layout_width="130sp"
         android:layout_height="40sp"
         android:layout_alignParentRight="true"
@@ -28,8 +29,9 @@
         android:layout_marginBottom="595dp"
         android:layout_marginRight="54dp"
         android:backgroundTint="#FFD703"
-        android:text="3RD FLOOR"
+        android:text="2ND FLOOR"
         android:textColor="@color/black" />
+
 
 
 </RelativeLayout>

@@ -7,27 +7,27 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class bldg_main2nd extends AppCompatActivity {
+public class bldg_main3rd extends AppCompatActivity {
 
     @Override
     protected void  onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bldg_main2ndfloor);
+        setContentView(R.layout.activity_bldg_main3rd);
 
-        Button Floor2_1 = findViewById(R.id.Floor1);
-        Button Floor2_2 = findViewById(R.id.Floor2_3);
-        Floor2_1.setOnClickListener(new View.OnClickListener() {
+        Button Floor4 = findViewById(R.id.Floor4);
+        Button Floor3_2 = findViewById(R.id.Floor3_2);
+        Floor4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(bldg_main2nd.this, bldg_main2.class);
+                Intent intent = new Intent(bldg_main3rd.this, bldg_main4th.class);
                 startActivity(intent);
             }
         });
 
-        Floor2_2.setOnClickListener(new View.OnClickListener() {
+        Floor3_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(bldg_main2nd.this, bldg_main3rd.class);
+                Intent intent = new Intent(bldg_main3rd.this, bldg_main2nd.class);
                 startActivity(intent);
             }
         });

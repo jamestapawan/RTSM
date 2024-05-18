@@ -28,6 +28,15 @@
             android:name=".login_system"
             android:exported="false" />
         <activity
+            android:name=".bldg_main2nd"
+            android:exported="false" />
+        <activity
+            android:name=".bldg_main3rd"
+            android:exported="false" />
+        <activity
+            android:name=".bldg_main4th"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
