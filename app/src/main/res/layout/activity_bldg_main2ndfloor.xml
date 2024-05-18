@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/mezz"
-    tools:context=".bldg_main2">
+    android:layout_height="match_parent">
+
 
     <Button
         android:id="@+id/Floor1"
@@ -17,18 +15,22 @@
         android:text="Ground floor"
         android:backgroundTint="#FFD703"
         android:textColor="@color/black"
-        />
-
+        tools:ignore="MissingConstraints" />
+        
     <Button
         android:id="@+id/Floor2_3"
         android:layout_width="130sp"
         android:layout_height="40sp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="595dp"
-        android:layout_marginRight="54dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="655dp"
         android:backgroundTint="#FFD703"
         android:text="2ND FLOOR"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="571dp" />
+
 
 </RelativeLayout>
