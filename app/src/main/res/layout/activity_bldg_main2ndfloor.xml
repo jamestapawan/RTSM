@@ -7,6 +7,23 @@
     android:background="@drawable/_nd"
     tools:context=".bldg_main2nd">
 
+    <ImageView
+        android:id="@+id/room202_Button"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/sched_icon"
+        android:layout_marginTop="285dp"
+        android:layout_marginStart="280dp"/>
+
+    <TextView
+        android:id="@+id/room202_Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available"
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="285dp"
+        android:textColor="#00FF00"/>
+
     <Button
         android:id="@+id/Floor1"
         android:layout_width="130sp"

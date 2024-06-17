@@ -7,6 +7,22 @@
     android:background="@drawable/test"
     tools:context=".Bldg_main1">
 
+    <ImageView
+        android:id="@+id/Comlab3_Button"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/sched_icon"
+        android:layout_marginTop="223dp"
+        android:layout_marginStart="55dp"/>
+
+    <TextView
+        android:id="@+id/Comlab3_Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="60dp"
+        android:textColor="#00FF00"/>
 
     <Button
         android:id="@+id/Floor2_1"
