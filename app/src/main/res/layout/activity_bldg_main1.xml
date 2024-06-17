@@ -47,30 +47,5 @@
         android:layout_marginStart="20dp"
         />
 
-    <ImageView
-        android:id="@+id/ComLab3Button"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginStart="10dp"
-        tools:srcCompat="@drawable/door_icon"/>
-    <TextView
-        android:id="@+id/Comlab3Tag"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/computer_laboratory_3"
-        android:layout_marginTop="145dp"
-        android:layout_toEndOf="@+id/ComLab3Button"
-        android:textColor="@color/white"
-        tools:ignore="RelativeOverlap" />
-    <TextView
-        android:id="@+id/Comlab3Status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/available"
-        android:layout_below="@+id/Comlab3Tag"
-        android:layout_toEndOf="@+id/ComLab3Button"
-        android:textColor="#00FF00"
-        />
 
 </RelativeLayout>

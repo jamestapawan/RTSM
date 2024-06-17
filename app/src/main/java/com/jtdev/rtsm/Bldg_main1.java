@@ -8,18 +8,14 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-<<<<<<< Updated upstream
 import android.widget.ImageView;
-=======
 import android.widget.Toast;
 import android.widget.ImageView;
 import android.widget.TextView;
 import java.util.Calendar;
->>>>>>> Stashed changes
+
 
 public class Bldg_main1 extends AppCompatActivity {
-    ImageView Com_lab3;
-
     ImageView comlab3;
     TextView comlab3_status;
 
@@ -27,7 +23,6 @@ public class Bldg_main1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bldg_main1);
-        Com_lab3 = findViewById(R.id.ComLab3Button);
 
         comlab3 = findViewById(R.id.Comlab3_Button);
         comlab3_status = findViewById(R.id.Comlab3_Status);
@@ -95,22 +90,9 @@ public class Bldg_main1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-<<<<<<< Updated upstream
-    Com_lab3.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            AlertDialog.Builder builder = new AlertDialog.Builder(Bldg_main1.this);
-            builder.setMessage("Schedule: ");
-            builder.setTitle("Computer Laboratory 3");
-            builder.show();
-        }
-    });
-
-
-=======
 
         updateTime();
->>>>>>> Stashed changes
+
     }
     public boolean compareTime(int time1, int time2) {
         Calendar calendar = Calendar.getInstance();
